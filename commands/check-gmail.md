@@ -11,7 +11,11 @@ Query Gmail for responses from applied companies, classify messages, and automat
 2. **Execute Gmail Search**:
    - Use Gmail MCP tools (such as `gmail_search_emails`) to search for messages from these company domains or containing the company names in the last 7 days.
    - Example search query: `(from:companydomain.com OR "company name") AND (interview OR application OR update OR scheduling)`
-3. **Analyze & Triage**:
+3. **Evidence Validation (MANDATORY)**:
+   - **Zero Simulation**: Do NOT provide a summary unless the `gmail_search_emails` tool has successfully returned data in this turn.
+   - If no data is returned, state: "Search completed. No matching communications found."
+   - For every found email, you MUST display the **Raw Snippet** and **Date** to the user BEFORE suggesting a status update.
+4. **Analyze & Triage**:
    - Embody a **Recruitment Coordinator**. Parse the email sender, subject, and body text.
    - Classify the communication:
      - **Rejection/Closure:** Update application status to `Closed` or `Rejected` in the folder's `0overview.md`.
