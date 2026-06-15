@@ -1,0 +1,17 @@
+{
+  "name": "pm-career",
+  "version": "0.1.0",
+  "mcpServers": {
+    "gmail": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-google-maps",
+        "--gmail"
+      ],
+      "env": {
+        "GOOGLE_CREDENTIALS_PATH": "{{USER_HOME}}/.mcp/gmail/credentials.json"
+      }
+    }
+  }
+}

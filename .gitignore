@@ -1,0 +1,9 @@
+.DS_Store
+*.pyc
+__pycache__/
+.env
+.mcp/
+credentials.json
+node_modules/
+dist/
+.vscode/

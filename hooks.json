@@ -1,0 +1,3 @@
+{
+  "onActivation": "include commands/welcome.md"
+}
