@@ -15,7 +15,7 @@ Generate a tailored preparation strategy for a specific interview panel stakehol
    - Analyze the stakeholder's role (e.g. Engineering Manager, VP of Product, Compliance Officer) and their likely strategic interests.
    - Formulate a customized briefing detailing their priorities, how to frame the candidate's achievements (UVP) for them, and 3 high-impact questions to ask them.
 3. **Save Output**:
-   - Save the strategy as `6stakeholder-strategy.md` in `~/km/agentic-job-hunting/20-user-applications/<folder_name>/6stakeholder-strategy.md`.
+   - Save the strategy as `6stakeholder-strategy.md` in `[ROOT]/20-user-applications/<folder_name>/6stakeholder-strategy.md`.
 4. **Display to User**:
    - Render the stakeholder briefing and tailored questions in the chat.
 

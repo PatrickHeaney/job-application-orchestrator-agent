@@ -7,15 +7,15 @@ Run Phase 3: Draft a tailored Cover Letter structured as a strategic proposal.
 
 ## Instructions
 1. **Load Inputs**:
-   - Read `2strategy.md` and `3resume.md` in `~/km/agentic-job-hunting/20-user-applications/<folder_name>/`.
-   - Read the master user profile from `~/km/agentic-job-hunting/10-user-profile/user_profile.md` (or session memory/interactive input).
+   - Read `2strategy.md` and `3resume.md` in `[ROOT]/20-user-applications/<folder_name>/`.
+   - Read the master user profile from `[ROOT]/10-user-profile/user_profile.md` (or session memory/interactive input).
    - Check if `user_solutions_summary.md` exists in `10-user-profile/` and load it.
    - Check if `2research_output.md` exists in the application folder. If present, load it.
 2. **Execute Drafting Prompt**:
    - Act as the **Career_Strategist** writing a strategic business proposal (tone of a confident, expert consultant).
    - Run the Cover Letter drafting prompt below. If `2research_output.md` is present, explicitly incorporate its detailed roadmap/reusable proposal ideas into the final paragraph.
 3. **Save Output**:
-   - Save only the generated Markdown cover letter as `4cover_letter.md` in `~/km/agentic-job-hunting/20-user-applications/<folder_name>/4cover_letter.md`.
+   - Save only the generated Markdown cover letter as `4cover_letter.md` in `[ROOT]/20-user-applications/<folder_name>/4cover_letter.md`.
 4. **Display to User**:
    - Render the cover letter in the chat.
    - Ask the user: *"Please review this Cover Letter proposal. Make sure it reflects your personal tone and that the achievements listed are accurate. When you are ready, say 'Proceed with audit and scoring'."*

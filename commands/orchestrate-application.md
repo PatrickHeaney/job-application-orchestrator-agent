@@ -7,8 +7,8 @@ Coordinate the 6-phase application optimization lifecycle interactively, pausing
 
 ## Instructions
 1. **Pre-flight Check**:
-   - Check if `~/km/agentic-job-hunting/20-user-applications/<folder_name>/1job_posting.md` exists and contains a job description. If not, prompt the user to run `/scaffold-application <folder_name>` first.
-   - Check if the master `~/km/agentic-job-hunting/10-user-profile/user_profile.md` exists. If it is missing (or if `test-mode=true` is requested), enter **Interactive Profile Mode**:
+   - Check if `[ROOT]/20-user-applications/<folder_name>/1job_posting.md` exists and contains a job description. If not, prompt the user to run `/scaffold-application <folder_name>` first.
+   - Check if the master `[ROOT]/10-user-profile/user_profile.md` exists. If it is missing (or if `test-mode=true` is requested), enter **Interactive Profile Mode**:
      - Prompt the user: *"I cannot find your user profile file. Please paste your master resume text or profile data here in the chat so I can parse it into session memory for this run."*
      - Wait for their input and load it as your session's Source of Truth.
 2. **Execute Phase-by-Phase with Pauses**:

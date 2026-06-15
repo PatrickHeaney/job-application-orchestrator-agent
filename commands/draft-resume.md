@@ -7,8 +7,8 @@ Run Phase 2: Tailor the resume to match the job posting requirements and strateg
 
 ## Instructions
 1. **Load Inputs**:
-   - Read `2strategy.md` in `~/km/agentic-job-hunting/20-user-applications/<folder_name>/`.
-   - Read the master user profile from `~/km/agentic-job-hunting/10-user-profile/user_profile.md` (or session memory/interactive input).
+   - Read `2strategy.md` in `[ROOT]/20-user-applications/<folder_name>/`.
+   - Read the master user profile from `[ROOT]/10-user-profile/user_profile.md` (or session memory/interactive input).
    - Check if `2research_output.md` exists in the folder. If present, load and read its contents.
 2. **Execute Simulation Prompt**:
    - Embody a team of two experts:
@@ -17,7 +17,7 @@ Run Phase 2: Tailor the resume to match the job posting requirements and strateg
    - If `2research_output.md` is present, integrate its custom technical modernization phases or frameworks into the Qualifications Summary and Career Summary to demonstrate matching expertise.
    - Run the resume tailoring prompt below.
 3. **Save Output**:
-   - Save only the generated Markdown resume as `3resume.md` in `~/km/agentic-job-hunting/20-user-applications/<folder_name>/3resume.md`.
+   - Save only the generated Markdown resume as `3resume.md` in `[ROOT]/20-user-applications/<folder_name>/3resume.md`.
 4. **Display to User**:
    - Render the Qualifications Summary, Career Summary, and 5 brand subtitles to the user.
    - Ask the user: *"Please review this resume draft. Check for metric alignment, correct formatting, and verify that the bullet points represent your actual accomplishments. Once you are satisfied, tell me to proceed with the cover letter proposal."*

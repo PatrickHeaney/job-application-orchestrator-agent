@@ -1,14 +1,14 @@
 # /scaffold-profile
 
-Detect, template, and interactively import or interview the user to build the source of truth profile at `~/km/agentic-job-hunting/10-user-profile/user_profile.md`.
+Detect, template, and interactively import or interview the user to build the source of truth profile at `[ROOT]/10-user-profile/user_profile.md`.
 
 ## Instructions
-1. **Check Path**: Check if `~/km/agentic-job-hunting/10-user-profile/user_profile.md` exists.
+1. **Check Path**: Check if `[ROOT]/10-user-profile/user_profile.md` exists.
 2. **If Already Exists**:
    - Inform the user that their user profile already exists.
    - Ask: *"Would you like to review/edit the profile, or would you like to run a test-mode interactive load for this session?"*
 3. **If Missing**:
-   - Create the directory `~/km/agentic-job-hunting/10-user-profile/`.
+   - Create the directory `[ROOT]/10-user-profile/`.
    - Write the empty structured template below to `user_profile.md`.
    - Ask the user in chat: *"I've scaffolded your profile at 10-user-profile/user_profile.md. Do you have an existing resume you'd like me to import, or would you like to do a quick step-by-step interview to fill it out?"*
 4. **Collect & Format**:

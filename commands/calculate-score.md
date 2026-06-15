@@ -7,7 +7,7 @@ Run Phase 5: Calculate the weighted ATS Scorecard and compile the application me
 
 ## Instructions
 1. **Load Inputs**:
-   - Read `3resume.md` and `2strategy.md` in `~/km/agentic-job-hunting/20-user-applications/<folder_name>/`.
+   - Read `3resume.md` and `2strategy.md` in `[ROOT]/20-user-applications/<folder_name>/`.
 2. **Execute Scorecard Prompt**:
    - Embody an **ATS_Specialist**.
    - Calculate the weighted scores:

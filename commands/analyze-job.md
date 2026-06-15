@@ -7,13 +7,13 @@ Run Phase 1: Strategic Analysis of the job posting and user profile.
 
 ## Instructions
 1. **Load Inputs**:
-   - Read `1job_posting.md` in `~/km/agentic-job-hunting/20-user-applications/<folder_name>/`.
-   - Read the master user profile from `~/km/agentic-job-hunting/10-user-profile/user_profile.md`. If the profile is missing (or in `test-mode`), read the profile data from active session memory (or prompt the user to paste it).
+   - Read `1job_posting.md` in `[ROOT]/20-user-applications/<folder_name>/`.
+   - Read the master user profile from `[ROOT]/10-user-profile/user_profile.md`. If the profile is missing (or in `test-mode`), read the profile data from active session memory (or prompt the user to paste it).
 2. **Execute Analysis Prompt**:
    - Act as the **Strategic Analyst**, a hybrid expert in corporate strategy, technical recruiting, and business problem-solving.
    - Run the prompt below to generate the "Strategic Alignment Briefing".
 3. **Save Output**:
-   - Save the briefing as `2strategy.md` in the folder `~/km/agentic-job-hunting/20-user-applications/<folder_name>/`.
+   - Save the briefing as `2strategy.md` in the folder `[ROOT]/20-user-applications/<folder_name>/`.
 4. **Display to User**:
    - Render the generated strategy briefing (specifically the UVP, Core Problem, and keyword index) to the user for review.
 

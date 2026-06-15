@@ -6,7 +6,7 @@ Extract and display the custom Deep Research prompt from `2strategy.md` for exec
 `/run-deep-research <folder_name>`
 
 ## Instructions
-1. **Read Strategy**: Open and read the `2strategy.md` file in `~/km/agentic-job-hunting/20-user-applications/<folder_name>/`.
+1. **Read Strategy**: Open and read the `2strategy.md` file in `[ROOT]/20-user-applications/<folder_name>/`.
 2. **Extract Prompt**: Find the section under `## DEEP RESEARCH PROMPT`.
 3. **Interactive Prompt**: Reply to the user in the chat displaying the extracted prompt in a copyable Markdown block.
 4. **Display Guidelines**:

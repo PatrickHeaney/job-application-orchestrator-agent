@@ -7,7 +7,7 @@ Query Gmail for responses from applied companies, classify messages, and automat
 
 ## Instructions
 1. **Identify Target Domains**:
-   - Read the registry ledger `~/km/agentic-job-hunting/applications-ledger.md` to identify the list of companies and their associated website domains.
+   - Read the registry ledger `[ROOT]/applications-ledger.md` to identify the list of companies and their associated website domains.
 2. **Execute Gmail Search**:
    - Use Gmail MCP tools (such as `gmail_search_emails`) to search for messages from these company domains or containing the company names in the last 7 days.
    - Example search query: `(from:companydomain.com OR "company name") AND (interview OR application OR update OR scheduling)`

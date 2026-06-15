@@ -7,14 +7,14 @@ Run Phase 4: Forensic check for hallucinations and compliance against the Source
 
 ## Instructions
 1. **Load Inputs**:
-   - Read `3resume.md` and `4cover_letter.md` in `~/km/agentic-job-hunting/20-user-applications/<folder_name>/`.
-   - Read the master user profile from `~/km/agentic-job-hunting/10-user-profile/user_profile.md` (or session memory/interactive input).
+   - Read `3resume.md` and `4cover_letter.md` in `[ROOT]/20-user-applications/<folder_name>/`.
+   - Read the master user profile from `[ROOT]/10-user-profile/user_profile.md` (or session memory/interactive input).
 2. **Execute Audit Prompt**:
    - Embody a **Compliance_Auditor** (a logical, non-creative, fact-checking agent).
    - Trace every metric, project name, job title, employment date, award, and credential in the resume and cover letter back to the master profile.
    - If a claim is not explicitly found in `user_profile.md`, it must be classified as a hallucination. Do not allow "inferred" metrics or credentials unless verified by the source.
 3. **Save Output**:
-   - Save the audit report as `5audit.md` in `~/km/agentic-job-hunting/20-user-applications/<folder_name>/5audit.md`.
+   - Save the audit report as `5audit.md` in `[ROOT]/20-user-applications/<folder_name>/5audit.md`.
 4. **Display to User**:
    - Render the audit results in the chat.
    - **Crucial Warning:** If there are any items listed under the "HALLUCINATION" section, display them in a blockquote using a **WARNING** alert to ensure the user corrects them before applying.
